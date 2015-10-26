@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context="com.geophoto2.jaroslav.mapapp.FullPhotoActivity">
+
+    <ImageView
+        android:id="@+id/full_img"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        />
+
+    <TextView
+        android:id="@+id/full_title"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        />
+
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:text="Share"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingRight="10dp"
+        android:onClick="onClickShareButton"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mapapp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="yandex_geocoder_url">https://geocode-maps.yandex.ru/1.x/?geocode=</string>
+    <string name="title_activity_list_photo">ListPhotoActivity</string>
+    <string name="title_activity_full_photo">FullPhotoActivity</string>
+</resources>
